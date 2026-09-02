@@ -57,12 +57,12 @@ Tags:
 ---
 
 ## 001 — 2026-09-02 — v0.1 — 0.5h
-Goal: Setup veritydb. Write a small key value store. 
-Did: Started this new project. Did the in memory key value store.
+Goal: Setup veritydb. Write a small key value store.  
+Did: Started this new project. Did the in memory key value store.  
 Broke / confused me: String vs str. Why one has default value the other does not. The
 reference `&` thing and `mut` thing also confused me.
-Learned: Basic rust syntax. Functions like println!, print!, etc
-Numbers: None.
-Open questions: How does `mut` actually work? How does `&` work? Do we have classes in rust?
-Next session starts by: Setting up a proper rust project with `cargo`.
+Learned: Basic rust syntax. Functions like println!, print!, etc  
+Numbers: None.  
+Open questions: How does `mut` actually work? How does `&` work? Do we have classes in rust?  
+Next session starts by: Setting up a proper rust project with `cargo`.  
 Tags: #rust-borrow #confusion #setup
