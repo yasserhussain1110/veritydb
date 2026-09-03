@@ -76,3 +76,14 @@ Numbers: None.
 Open questions: Whats `clippy`?  
 Next session starts by: Learning and using `clippy` and implementing the on-disk format.  
 Tags: #rust-setup #cargo-setup
+
+## 003 — 2026-09-03 — v0.3 — 1h  
+Goal: Understand `clippy`. Start implementing the on disk format.  
+Did: `clippy` is just a rust linter. Started the implementation.  
+Broke / confused me: `struct`, `enum`, why we need a append only log?  
+Learned: `enum` type its different from Java `enum`. Here you can provide the entire shape.  
+Append only logs are backbone of many databases.  
+Numbers: None.  
+Open questions: How do I actually persist these bytes to the disk?  
+Next session starts by: Persist the bytes to disk.  
+Tags: #append-only-logs #disk #databases
