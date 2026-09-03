@@ -1,12 +1,15 @@
+use std::collections::HashMap;
 use std::io;
 use std::io::Write;
-use std::collections::HashMap;
 
 fn get(db: &HashMap<String, String>, command: &Vec<&str>) {
     if command.len() != 2 {
         println!("get command needs only single argument");
     } else {
-        println!("{}", db.get(command[1]).map(String::as_str).unwrap_or_default());
+        println!(
+            "{}",
+            db.get(command[1]).map(String::as_str).unwrap_or_default()
+        );
     }
 }
 
@@ -29,7 +32,9 @@ fn main() {
     loop {
         print!("> ");
         io::stdout().flush().unwrap();
-        io::stdin().read_line(&mut input).expect("Failed to read line");
+        io::stdin()
+            .read_line(&mut input)
+            .expect("Failed to read line");
         let words: Vec<&str> = input.split_whitespace().collect();
         if words[0] != "get" && words[0] != "put" {
             println!("Commands Supported :- get, put");
