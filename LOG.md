@@ -66,3 +66,13 @@ Numbers: None.
 Open questions: How does `mut` actually work? How does `&` work? Do we have classes in rust?  
 Next session starts by: Setting up a proper rust project with `cargo`.  
 Tags: #rust-borrow #confusion #setup
+
+## 002 — 2026-09-03 — v0.2 — 0.1h  
+Goal: Setup project using cargo.  
+Did: Used to cargo setup an actual project.  
+Broke / confused me: `cargo fmt`. It was a new command, used to format rust code.  
+Learned: Learned cargo project structure.  
+Numbers: None.  
+Open questions: Whats `clippy`?  
+Next session starts by: Learning and using `clippy` and implementing the on-disk format.  
+Tags: #rust-setup #cargo-setup
