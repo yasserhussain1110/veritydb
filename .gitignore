@@ -3,3 +3,8 @@ db
 log.sh
 PLAN.md
 WEEKS.md
+
+
+# Added by cargo
+
+/target
